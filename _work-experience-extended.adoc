@@ -1,0 +1,151 @@
+[[work-experience-extended]]
+== icon:file-text[] Work Experience Extended
+
+=== icon:play[] Support Team Leader at CentricMinds [[TeamLeader]]
+icon:calendar[] `May 2018 to Jul 2020` +
+icon:terminal[] Platform: {url-centric}[CentricMinds, role="external", window="_blank"] +
+
+Primarily lead the support development team in all tasks mentioned in below role. Otherwise, filled all technical personnel gaps as required, acting as *2IC* to the CTO.
+
+* Leadership
+** *On-boarding and training* of all new developers
+** Assignment and *time management* of all support staff
+** L2 *technical escalation* for all internal issues
+** Revamped entire client-facing support process to *improve overall efficiency/performance*
+** Team *performance oversight* and correction
+** Involved in *developer hiring* process (selection, interviews)
+* Development
+** Client driven *feature development* (project based)
+** Internally driven feature development (both frontend and backend)
+** Liaised with clients and their vendors on technical requirements and *project planning*
+** Code reviews
+** Prepared internal *documentation* for all technical processes
+** Large scale functionality investigations and fixes (both application, and server level)
+** Post-mortem investigations and reporting
+* DevOps / System Architecture / Software Architecture
+** Created new *build server* with latest software and updated CI pipelines
+** Created various deployment scripts to aid in manual rollouts
+** Configured *automated monitoring* and alerts
+** Designed and *implemented new architectures* for custom client needs
+** Configured *SQL Server replication* for clients
+* Quality Control
+** Updated code *quality standards* including style and efficiency
+** Updated and fixed bloated *dependency management*
+
+****
+.Provided platform functionality
+* Usage statistics/monitoring platform
+* Rebuilt legacy custom user sync as Spring Boot app to use new API
+** Originally C# (~40,000 lines) into Spring Boot app (<500 lines) with additional functionality and fault tolerance
+* Uplifted SAML SSO middleware including full documentation and deployment strategies
+* Contributed to frontend facelift project
+* Standardised and cleaned up internal logging functionality
+* Multiple third party integration reworks
+** PDF generation (Open/Libre Office, OfficeToPDF)
+** ZenDesk integration
+** Updated Active Directory user sync
+****
+
+*Technologies used:* +
+Java, JSP, Tomcat, Apache, MySQL, SQL Server, SQLite, JavaScript, NodeJS, Express, Git, Groovy, HTML, CSS, ElasticSearch, Lucene, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, AWS (EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch), Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage) Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012, 2019), IIS
+
+<<<
+
+'''
+
+=== icon:play[] Support Developer at CentricMinds [[Developer]]
+
+icon:calendar[] `Jan 2017 to May 2018` +
+icon:terminal[] Platform: {url-centric}[CentricMinds, role="external", window="_blank"] +
+
+Provided enterprise level application support to clients for the *Content Management System*, while developing new features, and fixing existing bugs.
+
+* Assisted clients with usage of the platform
+** Contributed detailed platform tutorials to *user-guide*
+** Debugged application issues and resolved with code changes
+** Maintained databases (*MySQL/SQL Server*) for clients
+** Performed full application upgrades manually
+* Performed *server maintenance* (both cloud and on-premise)
+** Performed *infrastructure maintenance* on a regular basis
+** Updated software, dependencies
+** Configured and maintained *SSL/TLS*
+** Installed, configured, updated *Tomcat servers*
+* Designed and developed new features
+** Automated full application upgrade process
+** Built multiple prototypes for new features including *various automation*
+* Assisted Support Team Leader
+** Revamped infrastructure reporting procedures
+** *Created new processes* for development team
+** *Trained* new developers
+** Provided statistics and reporting to CEO
+
+*Technologies used:* +
+Java, Tomcat, MySQL, SQL Server, JavaScript, Git, Groovy, HTML, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, AWS (EC2, ELB, RDS, VPC, VPN, CloudFlare), Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012), IIS
+
+<<<
+
+'''
+
+=== icon:play[] Knowledge Management Analyst at HPE [[KM]]
+icon:calendar[] `Nov 2016 to Jan 2017` +
+icon:bank[] Client: Commonwealth Bank Of Australia
+
+Consolidated all Knowledge Management (KM) tasks previously performed by all SMEs in their spare time under one role.
+
+* Communicated with Service Owners regarding regular KM review process
+* Collaborated with Data & Analytics Lead to create new reports to streamline review process
+* Contributed to design of several features/enhancements to the in-house service desk application
+* Automated identification of recurring issues in KM articles 
+** Built and managed a team to assist with major issues resolution
+* Built Java application connected to existing knowledgebase SQL Server database for automated issue detection
+
+<<<
+
+'''
+
+=== icon:play[] Project Case Manager at HPE [[CaseManager]]
+icon:calendar[] `Feb 2016 to Nov 2016` +
+icon:bank[] Client: Commonwealth Bank Of Australia
+
+Acted as the primary point of contact for on-site technicians during hardware rollouts in CBA branches. 
+
+* Identified patterns in recurring issues and advised leadership team on how to handle them
+* Managed communications between first and second level teams to ensure issues were resolved efficiently
+* Designed and delivered communications to the first level support team with regular updates on the project
+* Created and maintained knowledge articles for first level teams to ensure all issues were known and had quick resolutions
+* Created scripts to automate resolutions of most common issues efficiently, reducing handle time for many calls
+** Automated (re)installation for most commonly used applications
+** Automated fixes for some applications and hardware communication issues
+*** In one instance (identifying and resolving receipt printer issues), average resolution times dropped by over 300% by turning a manual troubleshooting process into a single-click function
+* Monitored on-going issues and assisted with resolutions
+* Unofficially acted as SME for project related issues
+* Created SQL and Sharepoint linked reporting spreadsheets for 5 teams to streamline various tasks
+** Optimised Knowledge Management reporting by unifying multiple data sources for analysis and progress tracking
+** Transformed offline reports for Customer Survey team into live-data reports
+** Built a ticket status tracker for first level Service Desk to ensure all SLAs can easily be tracked and kept within acceptable levels
+
+<<<
+
+'''
+
+=== icon:play[] Service Desk Analyst at HPE[[ServiceDesk]]
+icon:calendar[] `Sep 2015 to Feb 2016` +
+icon:bank[] Client: Commonwealth Bank Of Australia
+
+Service Desk Operations – Desktop Team
+
+* General desktop support for >~100 CBA employees daily
+* Working with often frustrated, rushed, and angry banking staff, including top level executives who expect the best service
+* Fixed general desktop and networking issues e.g.
+** Printers
+** Software installation, configuration, repairs
+** Windows (XP, 7, 8, 10)
+** MS Office
+** Active Directory
+** SCCM
+** Group Policy
+* Constantly among top 5 analysts for all common service desk statistics
+** Low call times
+** % resolved on first contact
+** SLA compliance
+** # of calls taken per day

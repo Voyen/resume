@@ -1,0 +1,41 @@
+[[skills]]
+== icon:plug[] Technical Skills
+
+[cols="h,3"]
+|===
+
+h|Techniques  a|
+
+    * Web Services (REST, HAL)
+    * Reactive Programming (Spring Reactor, RSocket, WebSockets)
+    * Microservices
+    ** Service Discovery (Eureka)
+    ** Monitoring (CloudWatch, Prometheus, Jaeger, Sleuth, Grafana)
+    ** Logging (ELK Stack)
+    ** Resilience (Hystrix)
+    * Container Orchestration (Docker, Docker-Compose, Kubernetes, AWS ECS)
+    * Infrastructure as Code (Terraform, Jenkins X)
+    * Software Engineering Practices
+    ** CI/CD, Unit Testing
+    * Software Quality
+    ** ESLint, JSHint
+
+h|Tools a|
+
+    * Version Control Systems (Git, Subversion)
+    * Continuous Integration (BitBucket, Jenkins, Nexus)
+    * Databases (MySQL, SQL Server, SQLite, MongoDB)
+    * Application Servers (Tomcat, Apache, Nginx)
+    * Build Tools (Maven, Gradle)
+
+h|Platforms a|
+
+    * AWS (EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch)
+    * Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage)
+    * GCP (Compute, Kubernetes, Cloud DNS, IAM)
+
+h|Language & Frameworks a|
+
+    * Java, JavaScript, HTML, CSS, XML, Bash, Batch, T-SQL, C#
+    * Spring (Boot, Cloud, Data, Security, Netflix Eureka/Hystrix), React, Next.js
+|===

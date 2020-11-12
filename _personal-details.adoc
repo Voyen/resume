@@ -1,0 +1,5 @@
+[[personal-details]]
+
+|===
+| icon:envelope[] {MyEmail} | icon:phone[] {MyPhone} | icon:linkedin[] {url-linkedin}[LinkedIn, role="external", window="_blank"] | icon:github[] {url-github}[GitHub, role="external", window="_blank"]
+|===

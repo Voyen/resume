@@ -1,0 +1,18 @@
+[[education]]
+== icon:graduation-cap[] Education
+
+[cols="50%,30%,>20%", options="header"]
+|===
+| Name                                         | Source(s)                    | Year
+| Various programming and platform courses     | Udemy, YouTube, Blogs, etc.  | 2018-ongoing
+| Bachelor of Software Engineering (Honours)   | UniSA                        | 2013-unfinished
+|===
+
+== icon:language[] Language Skills
+
+[options="header"]
+|===
+| Language  | Level
+| English   | Primary (reading, speaking, writing)
+| Russian   | Native
+|===

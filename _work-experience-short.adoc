@@ -1,0 +1,40 @@
+[[work-experience-short]]
+== icon:file-text[] Work Experience
+
+[cols="2,2,6,3", options="noheader", stripes=odd]
+|===
+| icon:calendar[] *May 2018*
+| icon:calendar[] *Jul 2020*
+| <<#TeamLeader,*Support Team Leader*>>
+| *CentricMinds*
+
+4+| *Lead a team* of developers, providing application support to clients. Trained new developers. Served as *escalation point/SME* (L2/L3). Various DevOps, and Architecture duties.
+
+| icon:calendar[] *Jan 2017*
+| icon:calendar[] *May 2018*
+| <<#Developer,*Support Developer*>>
+| *CentricMinds*
+
+4+| Provided enterprise application support to clients. Involved with *feature development, bug fixes, and patches*.
+
+| icon:calendar[] *Nov 2016*
+| icon:calendar[] *Jan 2017*
+| <<#KM,*Knowledge Management Analyst*>>
+| *HP Enterprises*
+
+4+| Responsible for *creating and maintaining knowledge articles* for entire service desk. *Built automation* for almost the entire process which was previously entirely manual.
+
+| icon:calendar[] *Feb 2016*
+| icon:calendar[] *Nov 2016*
+| <<#CaseManager,*Case Manager*>>
+| *HP Enterprises*
+
+4+| First point of contact for on-site technicians during the *upgrade of the Commonwealth Bank branch environment*. Issue fixes, tracking, prevention.
+
+| icon:calendar[] *Sep 2015*
+| icon:calendar[] *Feb 2016*
+| <<#ServiceDesk,*Service Desk Analyst*>>
+| *HP Enterprises*
+
+4+| Desktop and applications support for Commonwealth Bank staff. 
+|===
