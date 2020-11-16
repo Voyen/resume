@@ -7,7 +7,9 @@
 h|Techniques  a|
 
     * Web Services (REST, HAL)
+    ** Solid understanding of REST API design, development, and management
     * Reactive Programming (Spring Reactor, RSocket, WebSockets)
+    * API Documentation (Swagger, Spring Restdocs)
     * Microservices
     ** Service Discovery (Eureka)
     ** Monitoring (CloudWatch, Prometheus, Jaeger, Sleuth, Grafana)
@@ -37,5 +39,5 @@ h|Platforms a|
 h|Language & Frameworks a|
 
     * Java, JavaScript, HTML, CSS, XML, Bash, Batch, T-SQL, C#
-    * Spring (Boot, Cloud, Data, Security, Netflix Eureka/Hystrix), React, Next.js
+    * Spring (MVC, Boot, Cloud, Data, Security, Netflix Eureka/Hystrix), React, Next.js
 |===
