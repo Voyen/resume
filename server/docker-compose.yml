@@ -27,7 +27,7 @@ services:
       - "/run/docker.sock:/var/run/docker.sock:ro"
     environment:
       NGINX_PROXY_CONTAINER: "reverse-proxy"
-      DEFAULT_EMAIL: "dev@voyen.io"
+      DEFAULT_EMAIL: "${LETSENCRYPT_DEFAULT_EMAIL}"
     restart: "always"
     depends_on:
       - "reverse-proxy"
@@ -39,8 +39,8 @@ services:
     volumes:
       - "./site:/usr/share/nginx/html"
     environment:
-      VIRTUAL_HOST: "resume.voyen.io"
-      LETSENCRYPT_HOST: "resume.voyen.io"
+      VIRTUAL_HOST: "${RESUME_VHOST}"
+      LETSENCRYPT_HOST: "${RESUME_VHOST}"
       VIRTUAL_PORT: 80
     networks:
       - "net"

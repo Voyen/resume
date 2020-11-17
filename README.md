@@ -29,7 +29,7 @@ This is designed to be hosting agnostic, so the following pre-requisites I leave
 - Docker installed
 - docker-compose installed
 
-Once above is complete, copy `./server/docker-compose.yml` to desired location (I have it in home directory)
+Once above is complete, copy contents of `./server/` to desired location (I have it in home directory). Fill out the copied `.env` file on the server to include your email and hostname at which the resume should be accessible.
 
 In order for the docker network to work as intended, run the following
 
@@ -43,8 +43,9 @@ Once files are generated locally, copy them to this remote directory. At this po
 
 ```
 $HOME
-├──docker-compose.yml
-└──site
+├── .env
+├── docker-compose.yml
+└── site
     ├── resume.pdf
     └── index.html
 ```
