@@ -1,7 +1,7 @@
 # Resume
 This is where I host my personal resume.
 
-## Installation
+## Preparation
 
 ### Install asciidoctor (Arch)
 ```
@@ -10,6 +10,10 @@ yay -S asciidoctor-pdf
 ```
 
 For other distros/MacOS/Windows I leave that to you to figure out.
+
+### Set up environment
+
+Update `./.env` file with your own details (assuming you want to use SSH to upload files). 
 
 ## Generate Documents
 
@@ -53,4 +57,10 @@ docker-compose up -d
 
 Give LetsEncrypt a few minutes to do it's thing (only necessary on the first run), then you should be able to browse to the host you specified in the `docker run` command successfully. The PDF version should now be accessible at `$YOUR_HOST/resume.pdf`
 
-After everything is live to update the resume you just need to run `./generate.sh` and copy the contents of `./dist/` to `$REMOTE/$HOME/site/`, and the changes should be effective immediately.
+## Updating content upstream
+
+After everything is live, to update the resume you just need to run the following (providing you've filled out the `./.env` file correctly) and the changes should be effective immediately
+
+```shell
+./generate.sh push
+```
