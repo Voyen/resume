@@ -9,6 +9,8 @@ pacman -S asciidoctor
 yay -S asciidoctor-pdf
 ```
 
+For other distros/MacOS/Windows I leave that to you to figure out.
+
 ## Generate Documents
 
 ```
@@ -33,15 +35,13 @@ docker network create net
 
 On server create directory to hold resume static files (I simply have a $HOME/site/). 
 
-Once files are generated locally, copy them to this remote directory along with `./server/Dockerfile`. Note that the directories in the Dockerfile are relative to the dockerfile on the server, so this repo's structure is irrelevant.
-
-At this point the server should have a directory with the following structure:
+Once files are generated locally, copy them to this remote directory. At this point the server should have a directory with the following structure:
 
 ```
 $HOME
+├──docker-compose.yml
 └──site
-    ├── andrei-sevtsenko-resume.pdf
-    ├── Dockerfile
+    ├── resume.pdf
     └── index.html
 ```
 
@@ -51,14 +51,6 @@ While in `$HOME/` run the following to start the services.
 docker-compose up -d
 ```
 
-Browse to `$HOME/site/` and run (replacing the hostnames with your own)
-
-```shell
-docker stop resume # for subsequent updates, not needed for first run
-docker build -t resume .
-docker run --rm --name resume -e VIRTUAL_HOST=resume.voyen.io -e LETSENCRYPT_HOST=resume.voyen.io -e VIRTUAL_PORT=80 --network net -d resume
-```
-
-Alternatively, just drop the above into a bash script and execute that whenever you need to update the content.
-
 Give LetsEncrypt a few minutes to do it's thing (only necessary on the first run), then you should be able to browse to the host you specified in the `docker run` command successfully. The PDF version should now be accessible at `$YOUR_HOST/resume.pdf`
+
+After everything is live to update the resume you just need to run `./generate.sh` and copy the contents of `./dist/` to `$REMOTE/$HOME/site/`, and the changes should be effective immediately.
