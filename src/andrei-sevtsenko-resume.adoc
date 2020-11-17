@@ -14,7 +14,7 @@ endif::[]
 ifdef::backend-pdf[]
 [NOTE]
 ====
-This is best viewed online at link:{url-online-resume}[{url-online-resume}]
+This CV is written in AsciiDoctor format (source viewable at link:{url-resume-source}[{url-resume-source}]) and is best viewed online at link:{url-online-resume}[{url-online-resume}]
 ====
 endif::[]
 
