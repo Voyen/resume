@@ -16,3 +16,4 @@ Andrei Sevtsenko <dev@voyen.io>
 :url-centric: https://centricminds.com/
 :url-pdf-resume: https://voyen-resume.s3-ap-southeast-2.amazonaws.com/andrei-sevtsenko-resume.pdf
 :url-online-resume: https://resume.voyen.io
+:url-resume-source: https://github.com/Voyen/resume

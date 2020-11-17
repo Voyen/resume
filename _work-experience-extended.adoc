@@ -1,19 +1,12 @@
 [[work-experience-extended]]
 == icon:file-text[] Work Experience Extended
 
-=== icon:play[] Support Team Leader at CentricMinds [[TeamLeader]]
+=== icon:play[] Support Team Leader / Application Developer at CentricMinds [[TeamLeader]]
 icon:calendar[] `May 2018 to Jul 2020` +
 icon:terminal[] Platform: {url-centric}[CentricMinds, role="external", window="_blank"] +
 
 Primarily lead the support development team in all tasks mentioned in below role. Otherwise, filled all technical personnel gaps as required, acting as *2IC* to the CTO.
 
-* Leadership
-** *On-boarding and training* of all new developers
-** Assignment and *time management* of all support staff
-** L2 *technical escalation* for all internal issues
-** Revamped entire client-facing support process to *improve overall efficiency/performance*
-** Team *performance oversight* and correction
-** Involved in *developer hiring* process (selection, interviews)
 * Development
 ** Client driven *feature development* (project based)
 ** Internally driven feature development (both frontend and backend)
@@ -22,8 +15,16 @@ Primarily lead the support development team in all tasks mentioned in below role
 ** Prepared internal *documentation* for all technical processes
 ** Large scale functionality investigations and fixes (both application, and server level)
 ** Post-mortem investigations and reporting
+* Leadership
+** *On-boarding and training* of all new developers
+** Assignment and *time management* of all support staff
+** L2 *technical escalation* for all internal issues
+** Revamped entire client-facing support process to *improve overall efficiency/performance*
+** Team *performance oversight* and correction
+** Involved in *developer hiring* process (selection, interviews)
 * DevOps / System Architecture / Software Architecture
 ** Created new *build server* with latest software and updated CI pipelines
+*** Unified previously statically run Docker containers for Jenkins and Nexus into an environment orchestrated by Docker-Compose with self-renewing TLS certificates
 ** Created various deployment scripts to aid in manual rollouts
 ** Configured *automated monitoring* and alerts
 ** Designed and *implemented new architectures* for custom client needs
@@ -33,21 +34,34 @@ Primarily lead the support development team in all tasks mentioned in below role
 ** Updated and fixed bloated *dependency management*
 
 ****
-.Provided platform functionality
+.Provided platform functionality (highlights)
+* Platform upgrade automation
+** When I started at CentricMinds the upgrade process for the platform was entirely manual, being performed annually for each client. Upgrading a client's environment to the latest version took approximately a week, and required the developer to manually deploy the platform to each server individually, merge configuration files, upgrade the database schema, etc. Early in my tenure I identified this as a major bottleneck and presented a 7-page project proposal to management, and was tasked with automating the process. 
+** I built a module within the platform itself to allow it to self-upgrade to the latest version across multiple servers, effectively in a single step.
 * Usage statistics/monitoring platform
+** Developed a new suite of REST APIs to provide aggregated platform usage statistics for a React based analytics dashboard
+* Support performance metrics platform
+** Built a new Spring Boot application to interact with the FreshDesk API to aggregate all statistics on support activities for a given time period. This aggregated data was combined to provide an effective snapshot of a developer's performance.
+** This new application also allowed automation of SLA reporting which previously was a manual task involving manipulation of CSV files, Google Drive sheets, and PDF generation.
 * Rebuilt legacy custom user sync as Spring Boot app to use new API
-** Originally C# (~40,000 lines) into Spring Boot app (<500 lines) with additional functionality and fault tolerance
-* Uplifted SAML SSO middleware including full documentation and deployment strategies
+** Prior to my joining the team, there existed a user sync application custom built for one client which was responsible for syncing accounts within their own internal database to the CentricMinds platform using our APIs (this version used our legacy SOAP endpoints).
+** When their platform was upgraded (see platform automation point above), many of these SOAP endpoints were non-functional, so this sync application needed to be uplifted to interact with the newer REST API endpoints.
+** Instead of uplifting the existing ~40,000 lines of C# code, I opted to build a new Spring Boot application. This application ended up being <1000 lines of code, and had the benefit of additional functionality and fault tolerance that the previous app lacked.
+* Uplifted SAML SSO middleware (written in Node.js/Express) to be more dynamic and easier to set up, including full documentation and deployment strategies
 * Contributed to frontend facelift project
+** Replaced many frontend modules (written in JSP) to use an improved look and feel
 * Standardised and cleaned up internal logging functionality
-* Multiple third party integration reworks
-** PDF generation (Open/Libre Office, OfficeToPDF)
-** ZenDesk integration
+* Third party integration
+** Uplifted a regularly failing PDF generation suite (Open Office, Libre Office, OfficeToPDF) to be more dynamic and fault tolerant
+** Built new integration with ZenDesk APIs, allowing users to submit and view tickets to ZenDesk from within our CMS.
 ** Updated Active Directory user sync
 ****
 
 *Technologies used:* +
-Java, JSP, Tomcat, Apache, MySQL, SQL Server, SQLite, JavaScript, NodeJS, Express, Git, Groovy, HTML, CSS, ElasticSearch, Lucene, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, AWS (EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch), Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage) Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012, 2019), IIS
+Java, JSP, Tomcat, Spring Boot, Apache, MySQL, SQL Server, SQLite, NodeJS, Express, Groovy, ElasticSearch, Lucene, JavaScript, HTML, CSS, +
+Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012, 2019), IIS, +
+AWS (EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch), Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage), +
+Git, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, 
 
 <<<
 

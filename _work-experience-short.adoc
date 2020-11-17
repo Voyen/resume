@@ -5,10 +5,11 @@
 |===
 | icon:calendar[] *May 2018*
 | icon:calendar[] *Jul 2020*
-| <<#TeamLeader,*Support Team Leader*>>
+| <<#TeamLeader,*Support Team Leader / Application Developer*>>
 | *CentricMinds*
 
-4+| *Lead a team* of developers, providing application support to clients. Trained new developers. Served as *escalation point/SME* (L2/L3). Various DevOps, and Architecture duties.
+4+| *Lead a team* of support developers, providing application support to clients. Trained new developers. Served as *escalation point/SME* (L2/L3). Various DevOps, and Architecture duties. +
+Also frequently acted as project overflow due to staffing shortages, being involved in feature development on the flagship product, as well as developing several new applications from scratch.
 
 | icon:calendar[] *Jan 2017*
 | icon:calendar[] *May 2018*
