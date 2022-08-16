@@ -3,10 +3,10 @@
 asciidoctor src/andrei-sevtsenko-resume.adoc -D ./dist -o index.html
 asciidoctor-pdf src/andrei-sevtsenko-resume.adoc -a pdf-theme=pdf-theme.yml -D ./dist -o resume.pdf
 
-if [ $1 = "push" ]; then
+if [[ $1 = "push" ]]; then
 
   ENV_CHECK=$(grep -e '=$' .env | wc -l)
-  if [ 0 -eq $ENV_CHECK ]; then
+  if [[ 0 -eq $ENV_CHECK ]]; then
 
     . ./.env
 
