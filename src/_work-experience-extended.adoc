@@ -1,6 +1,77 @@
 [[work-experience-extended]]
 == icon:file-text[] Work Experience Extended
 
+// === icon:play[] TITLE at COMPANY [[ANCHOR]]
+// icon:calendar[] `MONTH YEAR to MONTH YEAR` +
+// icon:terminal[] Platform: {url-code}[Company, role="external", window="_blank"] +
+
+// CONTENT
+
+=== icon:play[] Software Architect at Complexica [[CPXSoftwareArchitect]]
+icon:calendar[] `Mar 2021 to Current` +
+icon:terminal[] Clients: Dulux Group, Flinders Port Holdings, Johnson & Johnson
+
+.Multiple projects
+* Customer Opportunity Profiler (Dulux Group)
+** After completing the project in my previous role, I lead a team of 3 developers to add 2 new BUs to the same application
+* Yard Optimisation Project (Flinders Port Holdings)
+** Acted as the *sole architect/developer* for a new application.
+** The application is responsible for providing real-time recommendations to container terminal clerks on which containers should be moved and where based on future planning and optimised yard configuration.
+* Customer Engagement Index Project (Johnson & Johnson)
+** *Lead a team to develop a new application* for J&J to track and predict the engagement of their health care professionals.
+
+
+.Experience
+* Leadership
+** Ran a team of 3 data scientists and 3 developers for Johnson & Johnson project
+** Ran an internal DevOps committee to set in place solid processes and best practices
+* Design/Architecture/DevOps
+** Worked directly with client team to design the application
+** Designed/implemented hybrid (WebFlux/WebMVC/Flask) environments of microservices to accomplish business goals
+** Designed/implemented cloud infrastructure/architecture in AWS to host the application efficiently
+** Designed/implemented IaC codebase to control AWS infrastructure (using AWS CDK)
+** Set in place high quality development standards for other developers
+* Development
+** Implemented multiple microservices using various technologies and languages to fit client requirements
+** Created multiple project templates to be re-used when creating new services
+** Created multiple AWS CDK infrastructure projects to fit the specific needs of each project in an optimal, cost-efficient manner
+
+****
+.Specific Highlights
+* Optimised developer workflow
+** Created local developer environment using Docker and Docker Compose to orchestrate all microservices and backing resources to run in hot-reloadable containers.
+** This eliminated the need to stop/build/run individual services/containers manually, and the entire environment could be run using simple `make` commands
+* Created company's first fully containerised application (x2)
+** The 2 projects listed above are Complexica's first to be fully containerised and run efficiently in AWS ECS via Fargate
+** The projects consist of a mixture of front-end, back-end, and machine learning services working in tandem
+****
+
+*Technologies used:* +
+Java, Spring Boot, Python, PostgreSQL, MongoDB, Docker, Docker-Compose, ReactJS, NextJS, Material UI, JavaScript, Typescript, HTML, CSS, +
+AWS (CDK, ECS, EC2, ASM, SM, CloudFormation, IAM, Route53, VPC, S3, CloudWatch) +
+Git, BitBucket, Jira, Confluence, Shell scripting, Batch scripting
+
+=== icon:play[] Software Developer at Complexica [[CPXDeveloper]]
+icon:calendar[] `Dec 2020 to Mar 2021` +
+icon:terminal[] Client: Dulux Group
+
+Added new BU to legacy Customer Opportunity Profiler (COP) application and modernised the layout/styling of this application.
+
+* Development
+** Added new functionality per client requirements
+** Found best available technologies/techniques compatible with legacy versions of the application (React 0.14, Spring Boot 1.25)
+** Modernised outdated visual aspects of application with latest design concepts and best practices
+** Optimised multiple existing functionalities
+*** In one case I reduced the time taken for a certain report to generate from 46 minutes to under 30 seconds
+*** In another case I reduced the pre-processing time on a nightly cron job from 13 hours to under 2 hours
+
+Completion of project resulted in 4 new client projects to add additional BUs to the application.
+
+*Technologies used:* +
+Java, Spring Boot, PostgreSQL, Docker, Docker-Compose, ReactJS, JavaScript, HTML, CSS, +
+AWS (EC2, CloudFormation, IAM, Route53, VPC, S3)
+Git, Jenkins, Nexus, BitBucket, Jira, Confluence, Shell scripting
+
 === icon:play[] Support Team Leader / Application Developer at CentricMinds [[TeamLeader]]
 icon:calendar[] `May 2018 to Jul 2020` +
 icon:terminal[] Platform: {url-centric}[CentricMinds, role="external", window="_blank"] +
@@ -96,7 +167,7 @@ Provided enterprise level application support to clients for the *Content Manage
 *Technologies used:* +
 Java, Tomcat, MySQL, SQL Server, JavaScript, Git, Groovy, HTML, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, AWS (EC2, ELB, RDS, VPC, VPN, CloudFlare), Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012), IIS
 
-<<<
+// <<<
 
 '''
 
@@ -138,7 +209,7 @@ Acted as the primary point of contact for on-site technicians during hardware ro
 ** Transformed offline reports for Customer Survey team into live-data reports
 ** Built a ticket status tracker for first level Service Desk to ensure all SLAs can easily be tracked and kept within acceptable levels
 
-<<<
+// <<<
 
 '''
 

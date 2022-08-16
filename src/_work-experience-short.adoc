@@ -3,6 +3,27 @@
 
 [cols="2,2,6,3", options="noheader", stripes=odd]
 |===
+// | icon:calendar[] *FROM*
+// | icon:calendar[] *TO*
+// | <<#ANCHOR,*TITLE*>>
+// | *COMPANY*
+
+// 4+| CONTENT
+//
+| icon:calendar[] *Mar 2021*
+| icon:calendar[] *Current*
+| <<#CPXSoftwareArchitect,*Software Architect*>>
+| *Complexica*
+
+4+| *Lead multiple teams* to develop new software, while designing and developing next generation cloud architectures.
+
+| icon:calendar[] *Dec 2020*
+| icon:calendar[] *Mar 2021*
+| <<#CPXDeveloper,*Software Developer*>>
+| *Complexica*
+
+4+| Developed new functionality for legacy application, uplifted styles to be more modern.
+
 | icon:calendar[] *May 2018*
 | icon:calendar[] *Jul 2020*
 | <<#TeamLeader,*Support Team Leader / Application Developer*>>

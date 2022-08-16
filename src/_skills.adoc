@@ -7,7 +7,7 @@
 h|Techniques  a|
 
     * Web Services (REST, HAL)
-    ** Solid understanding of REST API design, development, and management
+    ** Expert understanding of REST API design, development, and management
     * Reactive Programming (Spring Reactor, RSocket, WebSockets)
     * API Documentation (Swagger, Spring Restdocs)
     * Microservices
@@ -16,7 +16,7 @@ h|Techniques  a|
     ** Logging (ELK Stack)
     ** Resilience (Hystrix)
     * Container Orchestration (Docker, Docker-Compose, Kubernetes, AWS ECS)
-    * Infrastructure as Code (Terraform, Jenkins X)
+    * Infrastructure as Code (AWS CDK, Jenkins X)
     * Software Engineering Practices
     ** CI/CD, Unit Testing
     * Software Quality
@@ -25,19 +25,19 @@ h|Techniques  a|
 h|Tools a|
 
     * Version Control Systems (Git, Subversion)
-    * Continuous Integration (BitBucket, Jenkins, Nexus)
-    * Databases (MySQL, SQL Server, SQLite, MongoDB)
-    * Application Servers (Tomcat, Apache, Nginx)
+    * Continuous Integration (GitHub, BitBucket, Jenkins, Nexus, AWS Code*)
+    * Databases (MySQL, SQL Server, PostgreSQL, SQLite, MongoDB)
+    * Application Servers (Tomcat, Apache, Nginx, Netty)
     * Build Tools (Maven, Gradle)
 
 h|Platforms a|
 
-    * AWS (EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch)
+    * AWS (ECS, EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch, CloudFormation, etc.)
     * Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage)
     * GCP (Compute, Kubernetes, Cloud DNS, IAM)
 
 h|Language & Frameworks a|
 
-    * Java, JavaScript, HTML, CSS, XML, Bash, Batch, T-SQL, C#
+    * Java, JavaScript, Typescript, Python, HTML, CSS, XML, Bash, Batch, T-SQL, C#
     * Spring (MVC, Boot, Cloud, Data, Security, Netflix Eureka/Hystrix), React, Next.js
 |===
