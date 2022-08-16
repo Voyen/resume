@@ -167,8 +167,6 @@ Provided enterprise level application support to clients for the *Content Manage
 *Technologies used:* +
 Java, Tomcat, MySQL, SQL Server, JavaScript, Git, Groovy, HTML, Jenkins, Nexus, BitBucket, Shell scripting, Batch scripting, AWS (EC2, ELB, RDS, VPC, VPN, CloudFlare), Linux server (Ubuntu, RHEL, CentOS), Windows Server (2008, 2012), IIS
 
-// <<<
-
 '''
 
 === icon:play[] Knowledge Management Analyst at HPE [[KM]]
@@ -208,8 +206,6 @@ Acted as the primary point of contact for on-site technicians during hardware ro
 ** Optimised Knowledge Management reporting by unifying multiple data sources for analysis and progress tracking
 ** Transformed offline reports for Customer Survey team into live-data reports
 ** Built a ticket status tracker for first level Service Desk to ensure all SLAs can easily be tracked and kept within acceptable levels
-
-// <<<
 
 '''
 
