@@ -6,8 +6,8 @@ include::./_personal-details.adoc[]
 ifdef::backend-html5[]
 [NOTE]
 ====
-This CV is written in AsciiDoctor format (source viewable at link:{url-resume-source}[{url-resume-source}]) and is hosted on AWS, orchestrated by Docker-Compose. +
-Downlod the link:{url-pdf-resume}[printable (PDF) version]
+This CV is written in AsciiDoctor format (source viewable at link:{url-resume-source}[{url-resume-source}]) and is hosted on AWS. +
+Download the link:{url-pdf-resume}[printable (PDF) version]
 ====
 endif::[]
 
