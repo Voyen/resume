@@ -10,8 +10,16 @@
 
 // 4+| CONTENT
 //
-| icon:calendar[] *Mar 2021*
+| icon:calendar[] *Oct 2022*
 | icon:calendar[] *Current*
+| <<#Consunet,*Software Architect*>>
+| *Consunet*
+
+4+| Designed and developed a one-size-fits-all flat-file integration service. +
+Also evaluated and tested Kubernetes security toolsets, as well as contributing to corporate DevSecOps maturity model.
+
+| icon:calendar[] *Mar 2021*
+| icon:calendar[] *Sep 2022*
 | <<#CPXSoftwareArchitect,*Software Architect*>>
 | *Complexica*
 
