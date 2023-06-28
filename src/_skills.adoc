@@ -12,8 +12,8 @@ h|Techniques  a|
     * API Documentation (Swagger, Spring Restdocs)
     * Microservices
     ** Service Discovery (Eureka)
-    ** Monitoring (CloudWatch, Prometheus, Jaeger, Sleuth, Grafana)
-    ** Logging (ELK Stack)
+    ** Monitoring (CloudWatch, Prometheus, Jaeger, Sleuth, Grafana, Loki, Tempo)
+    ** Logging (ELK Stack, Grafana Stack)
     ** Resilience (Hystrix)
     * Container Orchestration (Docker, Docker-Compose, Kubernetes, AWS ECS)
     * Infrastructure as Code (AWS CDK, Jenkins X)

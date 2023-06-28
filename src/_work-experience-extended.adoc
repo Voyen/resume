@@ -7,8 +7,32 @@
 
 // CONTENT
 
+=== icon:play[] Principal Engineer at Socialites [[Socialites]]
+icon:calendar[] `Mar 2023 to Current` +
+
+As the sole Principal Engineer at a brand new start-up, I took on the entire responsibility of designing and building the platform from scratch.
+With only a small set of screens and no functional designs initially, I independently created the platform's architecture, including wireframes, functional designs, and specifications.
+
+Employing React, Next JS, and Spring Boot, I developed the entire platform, covering both front-end and back-end components.
+To ensure seamless deployment, I implemented DevOps practices and utilized AWS, specifically employing containers over ECS Fargate for hosting.
+I also integrated the Grafana stack for full observability, encompassing logs (Loki), traces (Tempo), and metrics (Grafana with Prometheus).
+
+Operating as the company's sole engineer, I worked autonomously, collaborating closely with the CEO.
+This setup required self-driven determination and resourcefulness to successfully deliver a high-quality product.
+
+As a Principal Engineer in this start-up, I demonstrated technical leadership, proficiency in platform design, full-stack development, and DevOps implementation.
+With my efforts, the platform now stands as a solid foundation, ready to excel in the market.
+
+Additionally, I took on the responsibility of setting up and configuring all the essential tools for the company's operations.
+This included establishing Google Workspace for seamless collaboration and productivity, implementing Slack as a communication platform, and configuring the Atlassian suite to streamline project management and development processes.
+I also set up GitHub for version control and other necessary tools to optimize team efficiency and workflow.
+By spearheading the implementation of these tools, I ensured a smooth and organized operational environment for the entire company.
+
+*Technologies used:* +
+Java, Spring Boot, MongoDB, Docker, Docker-Compose, ReactJS, NextJS, Material UI, JavaScript, Typescript, HTML, CSS, AWS, GitHub, Jira, Confluence
+
 === icon:play[] Software Architect at Consunet [[Consunet]]
-icon:calendar[] `Oct 2022 to Current` +
+icon:calendar[] `Oct 2022 to Mar 2023` +
 
 * Designed a one-size-fits-all integration solution to integrate any flat file provided by the client into software ecosystem
 ** Small set of NodeJS microservices which would listen to file changes on a source file system, then trigger parsing and upserting of provided data into the appropriate data stores

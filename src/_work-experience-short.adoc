@@ -10,8 +10,17 @@
 
 // 4+| CONTENT
 //
-| icon:calendar[] *Oct 2022*
+| icon:calendar[] *March 2023*
 | icon:calendar[] *Current*
+| <<#Socialites,*Principal Engineer*>>
+| *Socialites*
+
+4+| As a Principal Engineer at a brand new start-up, I played a pivotal role in designing and building the entire platform from scratch. +
+I created functional designs, wireframes, and specifications, and implemented the front-end using React and Next JS, the back-end using Spring Boot, and DevOps components for hosting on AWS with containers over ECS Fargate. +
+I ensured full observability using the Grafana stack for logs, traces, and metrics.
+
+| icon:calendar[] *Oct 2022*
+| icon:calendar[] *March 2023*
 | <<#Consunet,*Software Architect*>>
 | *Consunet*
 
