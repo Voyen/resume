@@ -9,9 +9,18 @@
 // | *COMPANY*
 
 // 4+| CONTENT
-//
-| icon:calendar[] *March 2023*
-| icon:calendar[] *Current*
+
+| icon:calendar[] *Sep 2023*
+| icon:calendar[] *Apr 2024*
+| <<#Hampr,*Senior Software Engineer*>>
+| *Hampr*
+
+4+| Contributed a large variety of changes across 4 projects, both back-end and front-end, including new features, bug fixes, component re-designs, and more. +
+Started a project to re-design and modernise the existing legacy projects to bring them to up to 2024 code and architecture standards. +
+Started a project to uplift the existing cloud architecture to introduce modern cloud technologies, and to automate all cloud interactions with IaC.
+
+| icon:calendar[] *Mar 2023*
+| icon:calendar[] *Sep 2023*
 | <<#Socialites,*Principal Engineer*>>
 | *Socialites*
 
@@ -20,7 +29,7 @@ I created functional designs, wireframes, and specifications, and implemented th
 I ensured full observability using the Grafana stack for logs, traces, and metrics.
 
 | icon:calendar[] *Oct 2022*
-| icon:calendar[] *March 2023*
+| icon:calendar[] *Mar 2023*
 | <<#Consunet,*Software Architect*>>
 | *Consunet*
 

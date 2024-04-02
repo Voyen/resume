@@ -25,7 +25,7 @@ h|Techniques  a|
 h|Tools a|
 
     * Version Control Systems (Git, Subversion)
-    * Continuous Integration (GitHub, BitBucket, Jenkins, Nexus, AWS Code*)
+    * Continuous Integration (GitHub, BitBucket, GitLab, Jenkins, Nexus, AWS Code*)
     * Databases (MySQL, SQL Server, PostgreSQL, SQLite, MongoDB)
     * Application Servers (Tomcat, Apache, Nginx, Netty)
     * Build Tools (Maven, Gradle)

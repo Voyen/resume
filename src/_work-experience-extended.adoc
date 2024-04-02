@@ -7,8 +7,36 @@
 
 // CONTENT
 
+=== icon:play[] Senior Software Engineer at Hampr [[Hampr]]
+icon:calendar[] `Sep 2023 to Apr 2024` +
+
+* Software Development Contributions
+** Spearheaded numerous feature enhancements and resolved critical issues across multiple projects, fostering continuous improvement in software quality and performance.
+** Streamlined the development environment by orchestrating the creation of a unified Docker Compose environment, consolidating multiple manual terminal commands into a single streamlined process, enhancing efficiency and consistency across the development lifecycle.
+* Domain Knowledge Enhancement
+** Initiated comprehensive efforts to augment company-wide domain knowledge, including:
+*** Conducting in-depth analysis of existing domain models and associations
+*** Defining and implementing developer standards to streamline processes and development
+*** Architecting and documenting the current cloud infrastructure for improved understanding and future scalability.
+* Legacy Codebase Modernisation
+** Pioneered a project aimed at revamping the existing API Server to modernise the legacy codebase:
+*** Developed a new domain map to simplify intricate domains and enhance clarity
+*** Implemented robust layer separation to enhance maintainability and scalability
+*** Engineered reusable services/utilities to eliminate redundancy and enhance code efficiency
+*** Optimised database relations and eliminated superfluous code to streamline performance
+* Cloud Infrastructure Development
+** Led the establishment of a cutting-edge infrastructure utilizing AWS CDK:
+*** Orchestrated automated Continuous Integration processes through Infrastructure as Code methodology, ensuring seamless integration and deployment of all code modifications.
+*** Configured essential cloud resources efficiently and automatically to enhance scalability and reliability.
+*** Independently modernized application projects to seamlessly integrate with the new cloud solution.
+* Leadership and Strategic Planning
+** Actively participated in leadership meetings to identify priorities and refine the organisational roadmap, fostering alignment and efficiency across teams.
+
+*Technologies used:* +
+JavaScript, TypeScript, ReactJS, NextJS, Material UI, NodeJS, Express, Sequelize, Docker, Docker Compose, AWS, AWS CDK, GitLab, Jira, Confluence
+
 === icon:play[] Principal Engineer at Socialites [[Socialites]]
-icon:calendar[] `Mar 2023 to Current` +
+icon:calendar[] `Mar 2023 to Sep 2023` +
 
 As the sole Principal Engineer at a brand new start-up, I took on the entire responsibility of designing and building the platform from scratch.
 With only a small set of screens and no functional designs initially, I independently created the platform's architecture, including wireframes, functional designs, and specifications.
@@ -29,7 +57,7 @@ I also set up GitHub for version control and other necessary tools to optimize t
 By spearheading the implementation of these tools, I ensured a smooth and organized operational environment for the entire company.
 
 *Technologies used:* +
-Java, Spring Boot, MongoDB, Docker, Docker-Compose, ReactJS, NextJS, Material UI, JavaScript, Typescript, HTML, CSS, AWS, GitHub, Jira, Confluence
+Java, Spring Boot, MongoDB, Docker, Docker-Compose, ReactJS, NextJS, Material UI, JavaScript, Typescript, HTML, CSS, AWS, AWS CDK, GitHub, Jira, Confluence
 
 === icon:play[] Software Architect at Consunet [[Consunet]]
 icon:calendar[] `Oct 2022 to Mar 2023` +
