@@ -1,0 +1,43 @@
+[[skills]]
+== icon:plug[] Technical Skills
+
+[cols="h,3"]
+|===
+
+h|Techniques  a|
+
+    * Web Services (REST, HAL)
+    ** Expert understanding of REST API design, development, and management
+    * Reactive Programming (Spring Reactor, RSocket, WebSockets, RxJs)
+    * API Documentation (Swagger, Spring Restdocs)
+    * Microservices
+    ** Service Discovery (Eureka)
+    ** Monitoring (CloudWatch, Prometheus, Jaeger, Sleuth, Grafana, Loki, Tempo)
+    ** Logging (ELK Stack, Grafana Stack)
+    ** Resilience (Hystrix)
+    * Container Orchestration (Docker, Docker-Compose, Kubernetes, AWS ECS)
+    * Infrastructure as Code (AWS CDK, Jenkins X)
+    * Software Engineering Practices
+    ** CI/CD, Unit Testing
+    * Software Quality
+    ** ESLint, JSHint
+
+h|Tools a|
+
+    * Version Control Systems (Git, Subversion)
+    * Continuous Integration (GitHub, BitBucket, GitLab, Jenkins, Nexus, AWS Code*)
+    * Databases (MySQL, SQL Server, PostgreSQL, SQLite, MongoDB)
+    * Application Servers (Tomcat, Apache, Nginx, Netty)
+    * Build Tools (Maven, Gradle)
+
+h|Platforms a|
+
+    * AWS (ECS, EC2, ELB, S3, IAM, RDS, VPC, VPN, WAF, Route53, CloudFlare, CloudWatch, CloudFormation, etc.)
+    * Azure (VM, Database for MySQL/SQL Server, Virtual Network, VPN Gateway, Active Directory, Storage)
+    * GCP (Compute, Kubernetes, Cloud DNS, IAM)
+
+h|Language & Frameworks a|
+
+    * Java, JavaScript, Typescript, Python, HTML, CSS, XML, Bash, Batch, T-SQL, C#
+    * Spring (MVC, Boot, Cloud, Data, Security, Netflix Eureka/Hystrix), React, Next.js, NodeJS
+|===

@@ -1,0 +1,88 @@
+[[work-experience-extended]]
+= icon:file-text[] Work Experience
+
+== Senior Software Engineer at Hampr
+icon:calendar[] `Sep 2023 to Apr 2024` +
+
+* Spearheaded numerous feature enhancements and resolved critical issues across multiple projects, improving software quality and performance
+* Streamlined the development environment by orchestrating a unified Docker Compose setup, consolidating manual commands into a single process, enhancing developer efficiency
+* Initiated efforts to augment company-wide domain knowledge, including in-depth analysis of existing models and implementing new developer standards
+* Pioneered a project to modernize the legacy API server, developing a new domain map and implementing robust layer separation for improved maintainability
+* Led the establishment of a cutting-edge AWS CDK-based cloud infrastructure, automating CI processes and configuring resources for enhanced scalability
+
+== Principal Engineer at Socialites
+icon:calendar[] `Mar 2023 to Sep 2023` +
+
+* As the sole Principal Engineer, designed and built the entire platform from scratch, including wireframes, functional designs, and specifications
+* Developed the full-stack platform using React, Next.js, and Spring Boot, and implemented DevOps practices with AWS ECS Fargate for seamless deployment
+* Integrated the Grafana observability stack, encompassing logs, traces, and metrics, to provide full visibility into the platform
+* Worked autonomously, demonstrating technical leadership, platform design, and DevOps expertise to deliver a high-quality product
+* Set up and configured essential operational tools, including Google Workspace, Slack, and the Atlassian suite, to ensure a smooth and organized environment
+
+== Software Architect at Consunet
+icon:calendar[] `Oct 2022 to Mar 2023` +
+
+* Designed a one-size-fits-all integration solution using Node.js microservices to ingest and process client data files
+* Evaluated and tested solutions to automate vulnerability scanning and penetration testing of Kubernetes clusters
+* Contributed to the development of the company's DevSecOps maturity model
+
+== Software Architect at Complexica
+icon:calendar[] `Mar 2021 to Sep 2022` +
+
+* Served as the lead architect and developer for three major client projects:
+** Managed a team of 3 developers to add 2 new business units to the existing Customer Opportunity Profiler application for Dulux Group
+** Acted as the sole architect/developer for a Yard Optimization application that provided real-time container movement recommendations to improve operational efficiency at Flinders Port Holdings
+** Led a team of 3 data scientists and 3 developers to build a new Customer Engagement Index application for Johnson & Johnson to track and predict healthcare professional engagement
+* Designed and implemented hybrid microservice environments, utilizing a combination of Spring WebFlux, Spring MVC, and Flask, to meet each client's unique requirements
+* Architected and deployed the cloud infrastructure on AWS to host the microservice-based applications, leveraging AWS CDK to provision resources in a scalable, cost-effective manner
+* Established high-quality development standards and processes, including the creation of project templates and reusable AWS CDK infrastructure modules
+* Optimized developer workflows by creating a unified local development environment using Docker and Docker Compose, eliminating the need for manual container management
+* Delivered the company's first fully containerized applications on AWS ECS Fargate, ensuring seamless and reliable deployments
+* Configured comprehensive observability and monitoring solutions, integrating the Grafana stack (Loki, Tempo, Prometheus) to provide visibility into application logs, traces, and metrics
+* Collaborated extensively with cross-functional teams, including data scientists and client stakeholders, to align technical solutions with business objectives
+* Demonstrated technical leadership and mentorship by running an internal DevOps committee to establish best practices across the organization
+
+== Software Developer at Complexica
+icon:calendar[] `Dec 2020 to Mar 2021` +
+
+* Added new functionality and modernized the layout/styling of the legacy Customer Opportunity Profiler application for Dulux Group
+* Optimized existing application features, reducing report generation time from 46 minutes to 30 seconds and pre-processing time from 13 hours to 2 hours
+* Completion of the project led to 4 new client engagements to add additional business units to the application
+
+== Support Team Leader / Application Developer at CentricMinds
+icon:calendar[] `May 2018 to Jul 2020` +
+
+* Led a team of support developers, managing onboarding, training, task assignments, and performance oversight
+* Revamped the client-facing support process, improving overall efficiency and performance by 25%
+* Created a new build server and CI pipelines, unifying Docker containers for Jenkins and Nexus
+* Designed and implemented new architectures to meet custom client needs, including SQL Server replication
+* Automated the platform upgrade process, reducing a week-long manual task to a single-step operation
+* Developed new applications to provide aggregated usage statistics, support performance metrics, and user sync functionality
+
+<<<
+
+== Support Developer at CentricMinds
+
+icon:calendar[] `Jan 2017 to May 2018` +
+
+* Provided enterprise-level support to clients for the content management system, including troubleshooting, bug fixing, and new feature development
+* Performed server maintenance and updates, configured SSL/TLS, and installed and updated Tomcat servers
+* Automated the full application upgrade process and built prototypes for new features and automation
+
+== Knowledge Management Analyst at HPE
+icon:calendar[] `Nov 2016 to Jan 2017` +
+icon:bank[] Client: Commonwealth Bank Of Australia
+
+* Consolidated all Knowledge Management tasks under one role, communicating with service owners and collaborating with the data & analytics lead
+* Contributed to the design of new features and enhancements for the in-house service desk application
+* Automated the identification of recurring issues in knowledge articles, building a team to assist with major issue resolution
+* Developed a Java application to automate issue detection in the existing knowledge base database
+
+== Project Case Manager at HPE
+icon:calendar[] `Feb 2016 to Nov 2016` +
+icon:bank[] Client: Commonwealth Bank Of Australia
+
+* Acted as the primary point of contact for on-site technicians during hardware rollouts in CBA branches
+* Identified patterns in recurring issues and advised the leadership team on resolution strategies
+* Managed communications between first and second-level support teams to ensure efficient issue resolution
+* Created and maintained knowledge articles for the first-level support team, and automated resolutions for common issues

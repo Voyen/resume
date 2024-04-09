@@ -1,0 +1,21 @@
+Andrei Sevtsenko <dev@voyen.io>
+// {localdatetime}
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:source-language: asciidoc
+:leveloffset: +1
+:attribute-missing: warn
+
+// data
+:MyPhone: +61 413 702 371
+:MyEmail: dev@voyen.io
+:url-github: https://github.com/Voyen
+:url-linkedin: https://www.linkedin.com/in/andrei-sevtsenko-244029ba
+:url-centric: https://centricminds.com/
+:url-complexica: https://complexica.com/
+:url-hampr: https://hampr.com.au/
+:url-online-resume: https://resume.voyen.io
+:url-pdf-resume: https://resume.voyen.io/resume.pdf
+:url-resume-source: https://github.com/Voyen/resume

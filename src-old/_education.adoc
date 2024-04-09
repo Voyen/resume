@@ -7,3 +7,12 @@
 | Various programming and platform courses     | Udemy, YouTube, Blogs, etc.  | 2018-ongoing
 | Bachelor of Software Engineering (Honours)   | UniSA                        | 2013-unfinished
 |===
+
+== icon:language[] Language Skills
+
+[options="header"]
+|===
+| Language  | Level
+| English   | Primary (reading, speaking, writing)
+| Russian   | Native
+|===

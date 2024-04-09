@@ -11,11 +11,26 @@ Download the link:{url-pdf-resume}[printable (PDF) version]
 ====
 endif::[]
 
-include::./_personal-statement.adoc[]
+ifdef::backend-pdf[]
+[NOTE]
+====
+This CV is written in AsciiDoctor format (source viewable at link:{url-resume-source}[{url-resume-source}]) and is best viewed online at link:{url-online-resume}[{url-online-resume}]
+====
+endif::[]
+
+= Overview
 
 include::./_skills.adoc[]
 
-include::./_work-experience.adoc[]
+ifdef::backend-pdf[]
+<<<
+endif::[]
+
+include::./_work-experience-short.adoc[]
 
 include::./_education.adoc[]
 
+<<<
+---
+
+include::./_work-experience-extended.adoc[]

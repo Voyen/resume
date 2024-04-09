@@ -1,0 +1,10 @@
+[[personal-statement]]
+= icon:user[] Personal Statement
+
+An experienced Full-Stack Software Engineer with 7+ years experience, and an exceptional track record of delivering high-quality, innovative solutions that drive business success.
+Expertise spans web services, reactive programming, microservices, and container orchestration, excelling at designing robust, scalable architectures that leverage the latest technologies.
+Mastery of API design and documentation ensures seamless integration and optimal functionality.
+Proficiency in infrastructure as code, CI/CD, and software quality practices enables the implementation of efficient, automated development workflows.
+Skilled across a wide range of platforms, including AWS, Azure, and GCP, allowing the provision of tailored cloud-based solutions.
+Deep understanding of databases, application servers, and programming languages enables the solving of complex technical challenges and driving of continuous improvement.
+Ability to work autonomously, provide technical leadership, and collaborate effectively with cross-functional teams has been pivotal in delivering impactful results for organizations.

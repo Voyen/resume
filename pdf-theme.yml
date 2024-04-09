@@ -1,6 +1,13 @@
 extends: default
 base:
-  font:
-    size: 8
+  font-size: 8
+  line-height: 1
+heading:
+  font-size: 16
+  line-height: 1
+  h2-font-size: 14
+  h2-line-height: 1
+  h3-font-size: 10
+  h3-line-height: 1
 page:
   margin: [0.5in]
