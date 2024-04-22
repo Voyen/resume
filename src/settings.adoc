@@ -1,4 +1,4 @@
-Andrei Sevtsenko <dev@voyen.io>
+Full Stack Developer | Technical Leader
 // {localdatetime}
 :icons: font
 :linkattrs:
